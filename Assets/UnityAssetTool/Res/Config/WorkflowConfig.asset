@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4df32133a46f8ad46a85fc0c563d3, type: 3}
+  m_Name: WorkflowConfig
+  m_EditorClassIdentifier: 
+  Offset: {x: -77, y: 2.2, z: -11.34}
+  modelDir: D:/temp/TestFbxs/input
+  texDir: D:/temp/TestFbxs/output
+  dstModelDir: Assets/UnityAssetTool/Res/Model
+  dstTexDir: Assets/UnityAssetTool/Res/Texture
+  dstPrefabDir: Assets/UnityAssetTool/Res/Prefab
+  dstMatDir: Assets/UnityAssetTool/Res/Mat
+  defaultMat: {fileID: 2100000, guid: 8d6058f0f0f556d4eb9b4ede309c8fc0, type: 2}
+  RowCount: 3
