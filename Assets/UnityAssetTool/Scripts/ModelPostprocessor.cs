@@ -16,7 +16,7 @@ namespace GamesTan.Workflow {
             }
         }
 
-        void OnPostprocessTexture(Texture2D tex) {
+        void OnPreprocessTexture() {
             var isUI = assetPath.Contains(uiDir);
             var isModelTex = assetPath.Contains(modelTexPath);
 
